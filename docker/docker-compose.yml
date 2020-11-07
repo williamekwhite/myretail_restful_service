@@ -1,0 +1,12 @@
+version: '3.5'
+services:
+  app:
+    build:
+      context: ./
+    env_file:
+      - .env.app
+    image: myretail-restful-service-app
+    volumes:
+      - '../app:/var/www/html'
+    ports:
+      - '8888:80'
