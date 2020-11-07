@@ -16,4 +16,10 @@ $app->get('/', function (Request $request, Response $response, $args) {
     return $response;
 });
 
+// Libraries
+require __DIR__ . '/../lib/ProductData.php';
+
+// API routes
+require __DIR__ . '/../routes/api.php';
+
 $app->run();
