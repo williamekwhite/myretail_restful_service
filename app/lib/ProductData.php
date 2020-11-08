@@ -11,6 +11,7 @@ class ProductData
     /**
      * Get the Product
      * - Merges DB and API information about a product together and returns
+     * - DB and API fields are required and a valid product will only be returned, when both are available
      * @param $productId
      * @return array|false
      */
@@ -28,6 +29,12 @@ class ProductData
         return false;
     }
 
+    /**
+     * Gets the Product Details from the DB
+     * - Parses the valid product document and fetches the needed fields, currently: current_price
+     * @param int $productId
+     * @return array|false
+     */
     private function getProductDBDetails(int $productId) {
         $product = $this->fetchProductFromDB($productId);
         if(!$product) {
@@ -55,13 +62,32 @@ class ProductData
     private function fetchProductFromDB(int $productId) {
         $collection = Database::getDatabase()->{self::DB_PRODUCT_COLLECTION_NAME};
         try {
-            $document = $collection->findOne(['_id' => (int) $productId]);
+            $document = $collection->findOne(['_id' => $productId]);
             return !is_null($document) ? $document : false;
 
         } catch (\Exception $e) {
             return false;
         }
+    }
 
+    /**
+     * Updates a Product document in the DB
+     * - returns an int based on if server acknowledged the change and if it was an upsert
+     *      0 = not successful
+     *      1 = successful
+     *      2 = successful and an upsert
+     * @param int $productId
+     * @param $fields
+     * @return int
+     */
+    public function updateProductDB(int $productId, $fields) {
+        $collection = Database::getDatabase()->{self::DB_PRODUCT_COLLECTION_NAME};
+        try {
+            $result = $collection->updateOne(['_id' => $productId], ['$set' => $fields], ['upsert' => true]);
+            return (int)$result->isAcknowledged() + $result->getUpsertedCount();
+        } catch (\Exception $e) {
+            return false;
+        }
     }
 
     /**
@@ -82,10 +108,11 @@ class ProductData
         /*
          * Parse product information
          * Fields to grab: title [product.item.product_description.title]
+         * - Add HTML entity decode to format titles correctly
          */
         $fields = [];
         if(!empty($productObject->product->item->product_description->title)) {
-            $fields['title'] = $productObject->product->item->product_description->title;
+            $fields['title'] = html_entity_decode($productObject->product->item->product_description->title);
         }
         return !empty($fields) ? $fields : false;
     }

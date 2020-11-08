@@ -6,6 +6,7 @@ use Slim\Factory\AppFactory;
 require __DIR__ . '/../vendor/autoload.php';
 
 $app = AppFactory::create();
+$app->addBodyParsingMiddleware();
 
 // Load Config Settings
 require __DIR__ . '/../config.php';
