@@ -4,6 +4,10 @@ namespace lib;
 
 use MongoDB\Client;
 
+/**
+ * The Database class controls all I/O for the MongoDB datastore.
+ * @package lib
+ */
 class Database
 {
     // Client

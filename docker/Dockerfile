@@ -1,5 +1,4 @@
 FROM php:7.4-apache
-MAINTAINER William White <wwhite@hubbardradio.com>
 
 # install the PHP extensions we need
 RUN set -ex; \

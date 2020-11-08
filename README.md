@@ -23,22 +23,22 @@ The goal of the application is to house a RESTful service that can retrieve prod
 
 ## Setup
 
-First, you need to configure your Docker Environment. You can do this by creating a `.env.app` file in the docker directory. Below is the text to use. Please set your GitHub Personal Access token that you fetched from above. This will allow your Docker container to access private GitHub repositories through composer.
+First, you need to configure your Docker Environment. You can do this by creating a `.env.app` file in the `/docker` directory. Below is the text to use. Please set your GitHub Personal Access token that you fetched from above. This will allow your Docker container to access private GitHub repositories through composer.
 ```
 COMPOSER_AUTH='{"github-oauth":{"github.com":"TOKEN HERE"}}'
 ```
 
-To start the application you must first start the application. You can do this by starting docker-compose from the `/code/docker` directory.
+To start the application you must first start the application. You can do this by starting docker-compose from the `/docker` directory.
 ```
 docker-compose up -d
 ```
 
 Install Composer Dependencies
 ```
-docker exec -d myretail_restful_service_app_1 composer install
+docker exec myretail_restful_service_app_1 composer install
 ```
 
-Setup application config file. Start in the `/code/app` directory. You may need to adjust settings based on your setup.
+Setup application config file. Start in the `/app` directory. You may need to adjust settings based on your setup.
 
 ```
 cp config.php.example config.php
@@ -46,7 +46,7 @@ cp config.php.example config.php
 
 Seed the DB
 ```
-docker exec -it myretail_restful_service_app_1 php cli.php seed-db
+docker exec myretail_restful_service_app_1 php cli.php seed-db
 ```
 
 
@@ -78,5 +78,5 @@ curl --request GET \
 curl --request PUT \
   --url http://localhost:8888/api/products/13264003 \
   --header 'Content-Type: application/json' \
-  --data '{\n    "current_price": {\n        "value": 13.49,\n        "currency_code": "GBP"\n    }\n}'
+  --data '{"current_price": {"value": 13.49,"currency_code": "GBP"}}'
 ```

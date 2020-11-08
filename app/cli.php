@@ -24,7 +24,7 @@ switch ($command) {
         // Seed the MongoDB instance with product info
         $productData = new \lib\ProductData();
         foreach([13860428, 54456119, 13264003, 12954218] as $productID) {
-            $productData->updateProductDB($productID, ["current_price" => ["value" => (float) rand(5,150).".".rand(10,99), "currency_code" => "USD"]]);
+            $productData->updateProductDB($productID, ["current_price" => ["value" => (float)(rand(5,150).".".rand(10,99)), "currency_code" => "USD"]]);
         }
         echo "The database has been seeded successfully";
         break;

@@ -4,6 +4,10 @@ namespace lib;
 
 use GuzzleHttp\Client;
 
+/**
+ * The ProductData Class contains all relevant processing of product data
+ * @package lib
+ */
 class ProductData
 {
     const DB_PRODUCT_COLLECTION_NAME = 'products';
@@ -107,12 +111,12 @@ class ProductData
 
         /*
          * Parse product information
-         * Fields to grab: title [product.item.product_description.title]
+         * Fields to grab: title [product.item.product_description.title] -- Rename to 'name'
          * - Add HTML entity decode to format titles correctly
          */
         $fields = [];
         if(!empty($productObject->product->item->product_description->title)) {
-            $fields['title'] = html_entity_decode($productObject->product->item->product_description->title);
+            $fields['name'] = html_entity_decode($productObject->product->item->product_description->title);
         }
         return !empty($fields) ? $fields : false;
     }
