@@ -1,0 +1,13 @@
+<?php
+/*
+ * Define Application Wide Constants for this environment
+ */
+
+// Disable Public Error Messages
+$app->addErrorMiddleware(false,false,false);
+
+// Database
+const MONGODB_CLUSTERADDR = 'mongo:27017';
+const MONGODB_DATABASE = 'myRetail';
+const MONGODB_USERNAME = 'root';
+const MONGODB_PASSWORD = 'password';

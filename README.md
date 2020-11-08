@@ -4,7 +4,7 @@ The purpose of this application and code base is to show my technical abilities 
 
 ## The Case Study
 
-I have chosen to go with Case Study #1 _myRetail RESTful service_. PHP has been selected as the coding language. Other frameworks and dependencies include: Slim, PHP Unit, Composer, and Docker. Docker is used to allow for a predictable environment that is universally available and usable when testing and editing.
+I have chosen to go with Case Study #1 _myRetail RESTful service_. PHP has been selected as the coding language. Other frameworks and dependencies include: Slim, PHP Unit, Composer, MongoDB, and Docker. Docker is used to allow for a predictable environment that is universally available and usable when testing and editing.
 
 The goal of the application is to house a RESTful service that can retrieve product and price details by ID. The two touch points of the application are as followed:
 * Responds to an HTTP GET request at /products/{id} and delivers product data as JSON (where {id} will be a number. 
@@ -27,7 +27,7 @@ First, you need to configure your Docker Environment. You can do this by creatin
 COMPOSER_AUTH='{"github-oauth":{"github.com":"TOKEN HERE"}}'
 ```
 
-To start the application you must first start the application. You can do this by starting docker-compose.
+To start the application you must first start the application. You can do this by starting docker-compose from the `/code/docker` directory.
 ```
 docker-compose up -d
 ```
@@ -35,6 +35,12 @@ docker-compose up -d
 Install Composer Dependencies
 ```
 docker exec -d myretail_restful_service_app_1 composer install
+```
+
+Setup application config file. Start in the `/code/app` directory. You may need to adjust settings based on your setup.
+
+```
+cp config.php.example config.php
 ```
 
 If you visit [http://localhost:8888/](http://localhost:8888/) you should see a welcome message. This means you have successfully setup your environment.

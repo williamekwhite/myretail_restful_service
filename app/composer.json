@@ -2,6 +2,7 @@
     "require": {
         "slim/slim": "4.*",
         "slim/psr7": "1.*",
-        "guzzlehttp/guzzle": "^7.0"
+        "guzzlehttp/guzzle": "^7.0",
+        "mongodb/mongodb": "^1.7"
     }
 }

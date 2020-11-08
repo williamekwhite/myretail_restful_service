@@ -29,6 +29,10 @@ RUN set -ex; \
 	; \
 	rm -rf /var/lib/apt/lists/*;
 
+# Install MongoDB Extension
+RUN pecl install mongodb \
+    && docker-php-ext-enable mongodb
+
 # Configure Apache Document Root for Slim Application
 ENV APACHE_DOCUMENT_ROOT /var/www/html/public
 RUN sed -ri -e 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' /etc/apache2/sites-available/*.conf

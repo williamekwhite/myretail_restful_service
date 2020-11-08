@@ -7,8 +7,8 @@ require __DIR__ . '/../vendor/autoload.php';
 
 $app = AppFactory::create();
 
-// Disable Public Error Messages
-$app->addErrorMiddleware(false,false,false);
+// Load Config Settings
+require __DIR__ . '/../config.php';
 
 // Instantiate Home Route
 $app->get('/', function (Request $request, Response $response, $args) {
@@ -17,6 +17,7 @@ $app->get('/', function (Request $request, Response $response, $args) {
 });
 
 // Libraries
+require __DIR__ . '/../lib/Database.php';
 require __DIR__ . '/../lib/ProductData.php';
 
 // API routes
