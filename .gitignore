@@ -1,3 +1,4 @@
 /app/vendor/
 /docker/.env.*
 config.php
+.idea
