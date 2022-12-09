@@ -1,0 +1,1390 @@
+{
+  "data": {
+    "product": {
+      "__typename": "Product",
+      "tcin": "87763244",
+      "category": {
+        "parent_category_id": "5xt13"
+      },
+      "ratings_and_reviews": {
+        "has_verified": true,
+        "statistics": {
+          "not_recommended_count": 6,
+          "question_count": 1,
+          "rating": {
+            "average": 4.67,
+            "count": 869,
+            "distribution": {
+              "rating1": 14,
+              "rating2": 8,
+              "rating3": 39,
+              "rating4": 125,
+              "rating5": 683
+            },
+            "secondary_averages": [
+              {
+                "id": "Taste",
+                "label": "taste",
+                "range": 5,
+                "type": "RATING",
+                "value": 4.54
+              },
+              {
+                "id": "easyToPrepare",
+                "label": "easy to prepare",
+                "range": 5,
+                "type": "RATING",
+                "value": 4.83
+              },
+              {
+                "id": "Quality",
+                "label": "quality",
+                "range": 5,
+                "type": "RATING",
+                "value": 4.55
+              },
+              {
+                "id": "Value",
+                "label": "value",
+                "range": 5,
+                "type": "RATING",
+                "value": 4.64
+              }
+            ]
+          },
+          "recommended_count": 53,
+          "recommended_percentage": 89,
+          "review_count": 869
+        },
+        "most_recent": [
+          {
+            "id": "f95d9f07-9996-4787-ad0a-d93c8e72fc97",
+            "text": "Mushy and disgusting. Spend the extra $0.50 and get Annie's. Never have I ever had mushy gross noodles with Annie's",
+            "author": {
+              "nickname": "jenzie20",
+              "external_id": "1795264967"
+            },
+            "title": "Not the same mac and cheese we grew up with",
+            "rating": {
+              "value": 1.0,
+              "submitted_at": "2022-12-04T17:37:03.127Z"
+            }
+          },
+          {
+            "id": "c8a5ef41-e985-4a56-aae6-e80ea4680e88",
+            "text": "The flavor of Kraft Mac & Cheese never gets old. I have enjoyed it for the last 54 years. We add it to all of our holiday meals as a side dish. The cheese flavor has not changed, that I have noticed, in those years. If I’m not up to making home made Mac, this is always my go to.",
+            "author": {
+              "nickname": "victoriaw173",
+              "external_id": "f1826bb0-bcbe-51e1-a59e-4640cf767602"
+            },
+            "title": "Kraft Mac & Cheese",
+            "rating": {
+              "value": 5.0,
+              "submitted_at": "2022-11-17T16:46:10Z"
+            }
+          },
+          {
+            "id": "62d87be0-9a10-47d8-8f48-56aa0781a140",
+            "text": "The kids and I both love kraft Mac n cheese. This was always a quick go to for lunch or a side if I knew the kids didn't like what I cooed that night",
+            "author": {
+              "nickname": "christianaw4",
+              "external_id": "679a5630-c3b8-54ff-b7db-9f3f302e7762"
+            },
+            "title": "Kids love it",
+            "rating": {
+              "value": 5.0,
+              "submitted_at": "2022-11-09T22:26:26Z"
+            }
+          },
+          {
+            "id": "aabef630-f94a-4066-b37e-cda87b7c9178",
+            "text": "Perfect amount if cheese. Very good flavor and taste. Super easy to make. Would recommend to everyone. Easy! Quick meal!",
+            "author": {
+              "nickname": "amandad301",
+              "external_id": "0595851a-38e0-5018-baf9-8a32a874b9c4"
+            },
+            "title": "The Best MC",
+            "rating": {
+              "value": 5.0,
+              "submitted_at": "2022-11-07T19:58:41Z"
+            }
+          },
+          {
+            "id": "9d08e20a-3c6c-4033-97a9-900c12efe3d6",
+            "text": "I honestly can’t remember how it tasted or how the quality was because it has been a really long time. I just remember it was good.",
+            "author": {
+              "nickname": "ariam20",
+              "external_id": "3fa93bfb-4e1d-5eac-b7fe-cf34971c2d5a"
+            },
+            "title": "good",
+            "rating": {
+              "value": 5.0,
+              "submitted_at": "2022-11-07T08:31:57Z"
+            }
+          },
+          {
+            "id": "765ebaaf-f5c5-4f7c-8d1e-43acdea8c573",
+            "text": "I use this product when I’m wanting to make a quick meal. I it’s super easy to make and delicious. I like to throw in some hamburger or tuna once in a while and it really makes for a fast cheep meal.",
+            "author": {
+              "nickname": "aprilj60",
+              "external_id": "ea6b6061-a7f0-580a-b864-e3d3ab8dff95"
+            },
+            "title": "Simple",
+            "rating": {
+              "value": 5.0,
+              "submitted_at": "2022-10-28T17:49:11Z"
+            }
+          },
+          {
+            "id": "4a0abd73-e330-4ae5-8bab-26a7bc88f25d",
+            "text": "Kraft macncheese goes with almost anything. Making it the most versatile food you could possibly buy. Here is something I recently learned. I knew you could mix it with butter or milk. But recently I was out of both and asked Google for a substitute and behold macncheese made with cream cheese and it is so delicious.",
+            "author": {
+              "nickname": "tammys988",
+              "external_id": "de91c4c9-e263-564a-bdd0-ed77fee14b9c"
+            },
+            "title": "Amazing.",
+            "rating": {
+              "value": 5.0,
+              "submitted_at": "2022-10-22T10:40:57Z"
+            }
+          },
+          {
+            "id": "61c339f8-f920-422b-b120-269aa70d9a24",
+            "text": "Taste awesome. My son loved it and he is a very picky eater. So that's a plus. Really enjoyed the flavors and the packaging",
+            "author": {
+              "nickname": "beben2",
+              "external_id": "98c172b5-c626-5ef2-809a-9f15d3cfae3d"
+            },
+            "title": "Macaroni",
+            "rating": {
+              "value": 5.0,
+              "submitted_at": "2022-10-16T20:09:14Z"
+            }
+          }
+        ],
+        "photos": [
+          "https://target.scene7.com/is/image/Target/GUEST_9203e33d-4e49-4df6-9f35-c88661d3b3e3",
+          "https://target.scene7.com/is/image/Target/GUEST_98dcd81f-4d8b-47ca-8e48-45e5ce9137d3",
+          "https://target.scene7.com/is/image/Target/GUEST_8af5ed94-8101-4196-ab82-948eb4a2bbac",
+          "https://target.scene7.com/is/image/Target/GUEST_46ebf875-9ebd-49bc-a19a-d830a66940e1",
+          "https://target.scene7.com/is/image/Target/GUEST_564c11e2-03b5-46e2-9cc7-9324be7691ba",
+          "https://target.scene7.com/is/image/Target/GUEST_564c11e2-03b5-46e2-9cc7-9324be7691ba",
+          "https://target.scene7.com/is/image/Target/GUEST_41b5bb78-862e-4b2c-a5a8-18d8c96714f2",
+          "https://target.scene7.com/is/image/Target/GUEST_54deaf8c-5328-41b4-aafd-1c5bfbbbd8da",
+          "https://target.scene7.com/is/image/Target/GUEST_c701bcd0-76e7-45fa-8a8c-eb82a0379660",
+          "https://target.scene7.com/is/image/Target/GUEST_7a6bc507-c5fd-4d02-a328-24d7311fd269",
+          "https://target.scene7.com/is/image/Target/GUEST_931f74bc-2f23-4277-9540-a6682e228da9",
+          "https://target.scene7.com/is/image/Target/GUEST_f7f2dff3-e6e0-427c-b906-773e667e141f"
+        ]
+      },
+      "variation_hierarchy": [
+        {
+          "name": "Count",
+          "value": "1",
+          "tcin": "12954218",
+          "buy_url": "https://www.target.com/p/kraft-macaroni-38-cheese-dinner-original-7-25oz/-/A-12954218",
+          "primary_image_url": "https://target.scene7.com/is/image/Target/GUEST_d591e3c5-4517-4279-969e-164aef8ac376",
+          "availability": {
+            "is_shipping_available": true,
+            "is_shipping_loyalty_available": true,
+            "is_scheduled_delivery_available": false,
+            "is_primary_store_available": false,
+            "is_backup_store_available": false,
+            "is_digital_options_available": false
+          },
+          "fulfillment": {
+            "is_shipping_available": true,
+            "is_shipping_loyalty_available": true,
+            "is_scheduled_delivery_available": false,
+            "is_primary_store_available": false,
+            "is_backup_store_available": false,
+            "is_digital_options_available": false
+          }
+        },
+        {
+          "name": "Count",
+          "value": "5",
+          "tcin": "17079480",
+          "buy_url": "https://www.target.com/p/kraft-macaroni-38-cheese-original-flavor-36-25oz-5pk/-/A-17079480",
+          "primary_image_url": "https://target.scene7.com/is/image/Target/GUEST_268812f5-e600-4020-a0d4-14d5b1e19e4a",
+          "availability": {
+            "is_shipping_available": true,
+            "is_shipping_loyalty_available": true,
+            "is_scheduled_delivery_available": false,
+            "is_primary_store_available": false,
+            "is_backup_store_available": false,
+            "is_digital_options_available": false
+          },
+          "fulfillment": {
+            "is_shipping_available": true,
+            "is_shipping_loyalty_available": true,
+            "is_scheduled_delivery_available": false,
+            "is_primary_store_available": false,
+            "is_backup_store_available": false,
+            "is_digital_options_available": false
+          }
+        }
+      ],
+      "item": {
+        "cart_add_on_threshold": 35.0,
+        "compliance": {},
+        "disclaimer": {
+          "description": "Content on this site is for reference purposes only.  Target does not represent or warrant that the nutrition, ingredient, allergen and other product information on our Web or Mobile sites are accurate or complete, since this information comes from the product manufacturers.  On occasion, manufacturers may improve or change their product formulas and update their labels.  We recommend that you do not rely solely on the information presented on our Web or Mobile sites and that you review the product's label or contact the manufacturer directly if you have specific product concerns or questions.  If you have specific healthcare concerns or questions about the products displayed, please contact your licensed healthcare professional for advice or answers.  Any additional pictures are suggested servings only.",
+          "type": "Grocery Disclaimer"
+        },
+        "enrichment": {
+          "buy_url": "https://www.target.com/p/kraft-macaroni-cheese-original-flavor/-/A-87763244",
+          "images": {
+            "base_url": "//target.scene7.com/is/image/Target/",
+            "primary_image_url": "https://target.scene7.com/is/image/Target/GUEST_d591e3c5-4517-4279-969e-164aef8ac376",
+            "primary_image": "GUEST_d591e3c5-4517-4279-969e-164aef8ac376",
+            "alternate_images": [
+              "GUEST_8b09bc62-a8d0-4f35-82a1-95d8f79401e5",
+              "GUEST_1a457feb-5198-4860-a6a5-3012f4137497",
+              "GUEST_e7191932-397d-401c-8085-f7797e612f81",
+              "GUEST_73a6f2f0-539b-40be-bcdd-cdeafb4d81d8",
+              "GUEST_a9f37219-e31b-4084-9d0a-90511c32c40a",
+              "GUEST_23ef418f-7ddc-4531-abcf-ae80939f8844",
+              "GUEST_d13e69da-42d9-470c-9ebd-2b08fa6d3c2a",
+              "GUEST_cca912d1-1d3a-4661-b21b-13f955ec01c7",
+              "GUEST_253070a1-db1a-4fb5-8120-9580f6d46c53",
+              "GUEST_d881bd7d-b177-4a76-af8f-bd3a6caaa387",
+              "GUEST_ed87c19b-b5d0-4fab-ab0e-1ffb57a7adba",
+              "GUEST_09575d22-f0ac-4956-b904-25cb05afc62f",
+              "GUEST_34dc1f6b-a137-424b-96f7-e6f620165ebf",
+              "GUEST_f10ad3bd-52e4-42f2-ba76-c7cb8748c072",
+              "GUEST_612244d9-e8fa-4679-9a9f-e26245d7720d",
+              "GUEST_3b2fce5c-a7e9-4937-8b37-bb047e481725",
+              "GUEST_9dc569f6-e3d8-45ac-acd1-d4ab4de6f3d1",
+              "GUEST_6af90d39-3101-41b6-8884-259ab90bf431",
+              "GUEST_e6b79bee-ca72-45f5-aed2-6ed277cc1b19"
+            ],
+            "alternate_image_urls": [
+              "https://target.scene7.com/is/image/Target/GUEST_8b09bc62-a8d0-4f35-82a1-95d8f79401e5",
+              "https://target.scene7.com/is/image/Target/GUEST_1a457feb-5198-4860-a6a5-3012f4137497",
+              "https://target.scene7.com/is/image/Target/GUEST_e7191932-397d-401c-8085-f7797e612f81",
+              "https://target.scene7.com/is/image/Target/GUEST_73a6f2f0-539b-40be-bcdd-cdeafb4d81d8",
+              "https://target.scene7.com/is/image/Target/GUEST_a9f37219-e31b-4084-9d0a-90511c32c40a",
+              "https://target.scene7.com/is/image/Target/GUEST_23ef418f-7ddc-4531-abcf-ae80939f8844",
+              "https://target.scene7.com/is/image/Target/GUEST_d13e69da-42d9-470c-9ebd-2b08fa6d3c2a",
+              "https://target.scene7.com/is/image/Target/GUEST_cca912d1-1d3a-4661-b21b-13f955ec01c7",
+              "https://target.scene7.com/is/image/Target/GUEST_253070a1-db1a-4fb5-8120-9580f6d46c53",
+              "https://target.scene7.com/is/image/Target/GUEST_d881bd7d-b177-4a76-af8f-bd3a6caaa387",
+              "https://target.scene7.com/is/image/Target/GUEST_ed87c19b-b5d0-4fab-ab0e-1ffb57a7adba",
+              "https://target.scene7.com/is/image/Target/GUEST_09575d22-f0ac-4956-b904-25cb05afc62f",
+              "https://target.scene7.com/is/image/Target/GUEST_34dc1f6b-a137-424b-96f7-e6f620165ebf",
+              "https://target.scene7.com/is/image/Target/GUEST_f10ad3bd-52e4-42f2-ba76-c7cb8748c072",
+              "https://target.scene7.com/is/image/Target/GUEST_612244d9-e8fa-4679-9a9f-e26245d7720d",
+              "https://target.scene7.com/is/image/Target/GUEST_3b2fce5c-a7e9-4937-8b37-bb047e481725",
+              "https://target.scene7.com/is/image/Target/GUEST_9dc569f6-e3d8-45ac-acd1-d4ab4de6f3d1",
+              "https://target.scene7.com/is/image/Target/GUEST_6af90d39-3101-41b6-8884-259ab90bf431",
+              "https://target.scene7.com/is/image/Target/GUEST_e6b79bee-ca72-45f5-aed2-6ed277cc1b19"
+            ],
+            "content_labels": [
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_d591e3c5-4517-4279-969e-164aef8ac376"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_ca56a1f0-1894-4419-98b3-e1cb1d130edc"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_d13e69da-42d9-470c-9ebd-2b08fa6d3c2a"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_f10ad3bd-52e4-42f2-ba76-c7cb8748c072"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_a9f37219-e31b-4084-9d0a-90511c32c40a"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_1a457feb-5198-4860-a6a5-3012f4137497"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_b2d9f75c-469b-4f8b-8a26-79ce9ec12dfb"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_34dc1f6b-a137-424b-96f7-e6f620165ebf"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_73a6f2f0-539b-40be-bcdd-cdeafb4d81d8"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_ed87c19b-b5d0-4fab-ab0e-1ffb57a7adba"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_253070a1-db1a-4fb5-8120-9580f6d46c53"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_d881bd7d-b177-4a76-af8f-bd3a6caaa387"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_cca912d1-1d3a-4661-b21b-13f955ec01c7"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_09575d22-f0ac-4956-b904-25cb05afc62f"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_8b09bc62-a8d0-4f35-82a1-95d8f79401e5"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_6af90d39-3101-41b6-8884-259ab90bf431"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_9dc569f6-e3d8-45ac-acd1-d4ab4de6f3d1"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_612244d9-e8fa-4679-9a9f-e26245d7720d"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_e6b79bee-ca72-45f5-aed2-6ed277cc1b19"
+              },
+              {
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_3b2fce5c-a7e9-4937-8b37-bb047e481725"
+              }
+            ]
+          },
+          "videos": [
+            {
+              "video_captions": [
+                {
+                  "caption_url": "https://target.scene7.com/is/content/Target/GUEST_092d54ed-02ba-44e3-8d0a-604ce2006b62",
+                  "language": "EN"
+                }
+              ],
+              "video_files": [
+                {
+                  "mime_type": "video/mp4",
+                  "video_height_pixels": "720",
+                  "video_url": "https://target.scene7.com/is/content/Target/GUEST_1e9cd18b-6da6-4b23-84b4-a786b0f22e7e_Flash9_Autox720p_2600k"
+                }
+              ],
+              "video_length_seconds": "8",
+              "video_poster_image": "https://target.scene7.com/is/image/Target/GUEST_1e9cd18b-6da6-4b23-84b4-a786b0f22e7e",
+              "video_title": "Kraft Original Mac & Cheese Dinner, 5 ct Pack"
+            },
+            {
+              "video_captions": [
+                {
+                  "caption_url": "https://target.scene7.com/is/content/Target/GUEST_9a1324ba-bdf2-4c56-8714-30dca75599e4",
+                  "language": "EN"
+                }
+              ],
+              "video_files": [
+                {
+                  "mime_type": "video/mp4",
+                  "video_height_pixels": "720",
+                  "video_url": "https://target.scene7.com/is/content/Target/GUEST_2f1db202-4be7-4b5b-91f2-a0b2da142211_Flash9_Autox720p_2600k"
+                }
+              ],
+              "video_length_seconds": "10",
+              "video_poster_image": "https://target.scene7.com/is/image/Target/GUEST_2f1db202-4be7-4b5b-91f2-a0b2da142211",
+              "video_title": "Kraft Original Macaroni & Cheese Dinner A"
+            }
+          ],
+          "return_policies": [
+            {
+              "user_type": "best_guest",
+              "day_count": 120
+            },
+            {
+              "user_type": "regular_guest",
+              "day_count": 90
+            }
+          ]
+        },
+        "handling": {
+          "import_designation_description": "Made in the USA or Imported"
+        },
+        "is_limited_time_offer": false,
+        "merchandise_classification": {
+          "class_id": 14,
+          "department_id": 212,
+          "department_name": "MEAL ESSENTIALS"
+        },
+        "primary_brand": {
+          "canonical_url": "/b/kraft/-/N-5scoh",
+          "linking_id": "5scoh",
+          "name": "Kraft"
+        },
+        "product_description": {
+          "bullet_descriptions": [
+            "<B>Contains:</B> Milk, Wheat",
+            "<B>May Contain:</B> Eggs",
+            "<B>State of Readiness:</B> Prepared, Heat and Serve",
+            "<B>Package Quantity:</B> 1",
+            "<B>Net weight:</B> 7.25 Ounces"
+          ],
+          "title": "Kraft Macaroni & Cheese Original Flavor"
+        },
+        "relationship_type_code": "VAP",
+        "return_policies_guest_message": "This item must be returned within 90 days of the date it was purchased in store, shipped, delivered by a Shipt shopper, or made ready for pickup. If purchased online with SNAP EBT, this item must be returned within 90 days of the date it was shipped, delivered by a Shipt shopper, or made ready for pickup. This 90-day return window is required by SNAP.",
+        "wellness_merchandise_attributes": []
+      },
+      "finds_posts": [
+        {
+          "id": "8WGN5tMoyRQrRcEto2CgQX",
+          "caption": "Who loves an easy dinner option, especially once your kids head back to school?! Summer has been so good but we love getting back into a routine. With that comes school activities and homework, so we grab kraft_macandcheese for a quick and easy dinner option. The girls love the taste and I do too! It brings me right back to my childhood. We picked up the cups and the boxes target! #backtoschool #easydinners #Kraft #MacandCheese #Target #TargetPartner #AD\n\n​​Follow my shop chelseehood on the shop.LTK app to shop this post and get my exclusive app-only content!\nhttps://liketk.it/3KGKn",
+          "url": "https://www.target.com/finds/posts/8WGN5tMoyRQrRcEto2CgQX",
+          "user": {
+            "display_name": "@chelseehood",
+            "image_alt_text": "@chelseehood",
+            "image_url": "https://edge.curalate.com/v1/img/NBhuquSqA95xCTwMOglawt_gXL8qjzd_8MKeYq-PY0U=/b/200",
+            "url": "https://www.target.com/finds/posts?usernames=chelseehood",
+            "username": "chelseehood"
+          },
+          "image": {
+            "url": "https://edge.curalate.com/v1/img/YIXi_rOwpSb4h-8kfhaEzhYAiQZkz5cGx_EjnKNyFAY=",
+            "alt_text": "user image by @chelseehood",
+            "height": 1440,
+            "width": 1440,
+            "aspect_ratio": "1:1"
+          }
+        },
+        {
+          "id": "j4w2F3oXECkJXCBveorHm6",
+          "caption": "Mac and cheese always has and always will be my favorite food! #AD And now that I'm a mom of three, kraft_macandcheese from kraft_brand at target isn't just a yummy meal- it's a lifesaver on busy school nights! As we're headed into the back-to-school season, I'll have two kids in preschool and multiple after-school activities, and I love that I can get this meal on the table in minutes - AND my kids will eat every bite! What's your go-to meal on busy nights? #TargetPartner #Kraft #MacandCheese #Target #backtoschool #easydinners\n\nFollow my shop ashleybrookenicholas on the shop.LTK app to shop this post and get my exclusive app-only content!\n\n#liketkit #LTKkids #LTKfamily #LTKBacktoSchool\nshop.ltk\nhttps://liketk.it/3KOfD",
+          "url": "https://www.target.com/finds/posts/j4w2F3oXECkJXCBveorHm6",
+          "user": {
+            "display_name": "@ashleybrookenicholas",
+            "image_alt_text": "@ashleybrookenicholas",
+            "image_url": "https://edge.curalate.com/v1/img/NBhuquSqA95xCTwMOglawt_gXL8qjzd_8MKeYq-PY0U=/b/200",
+            "url": "https://www.target.com/finds/posts?usernames=ashleybrookenicholas",
+            "username": "ashleybrookenicholas"
+          },
+          "image": {
+            "url": "https://edge.curalate.com/v1/img/DFJwpiO75lW4CBXS9eijCMn3Y_CeCpGh3rXWoi185_8=",
+            "alt_text": "user image by @ashleybrookenicholas",
+            "height": 1646,
+            "width": 1440,
+            "aspect_ratio": "9:10"
+          }
+        }
+      ],
+      "price": {
+        "formatted_current_price": "$0.99 - $4.89",
+        "formatted_current_price_type": "reg",
+        "location_id": 3991,
+        "is_current_price_range": true,
+        "current_retail_min": 0.99,
+        "reg_retail_max": 4.89,
+        "reg_retail_min": 0.99
+      },
+      "promotions": [],
+      "children": [
+        {
+          "__typename": "Product",
+          "tcin": "12954218",
+          "item": {
+            "bundle_components": {
+              "product_relationship_type": "Bundle Component"
+            },
+            "cart_add_on_threshold": 35.0,
+            "compliance": {
+              "is_proposition_65": false
+            },
+            "disclaimer": {
+              "description": "Content on this site is for reference purposes only.  Target does not represent or warrant that the nutrition, ingredient, allergen and other product information on our Web or Mobile sites are accurate or complete, since this information comes from the product manufacturers.  On occasion, manufacturers may improve or change their product formulas and update their labels.  We recommend that you do not rely solely on the information presented on our Web or Mobile sites and that you review the product's label or contact the manufacturer directly if you have specific product concerns or questions.  If you have specific healthcare concerns or questions about the products displayed, please contact your licensed healthcare professional for advice or answers.  Any additional pictures are suggested servings only.",
+              "type": "Grocery Disclaimer"
+            },
+            "dpci": "212-14-0318",
+            "eligibility_rules": {
+              "add_on": {
+                "is_active": true
+              },
+              "hold": {
+                "is_active": true
+              },
+              "inventory_notification_to_guest_excluded": {
+                "is_active": true
+              },
+              "scheduled_delivery": {
+                "is_active": true
+              },
+              "ship_to_guest": {
+                "is_active": true
+              }
+            },
+            "enrichment": {
+              "buy_url": "https://www.target.com/p/kraft-macaroni-38-cheese-dinner-original-7-25oz/-/A-12954218",
+              "images": {
+                "base_url": "//target.scene7.com/is/image/Target/",
+                "primary_image_url": "https://target.scene7.com/is/image/Target/GUEST_d591e3c5-4517-4279-969e-164aef8ac376",
+                "primary_image": "GUEST_d591e3c5-4517-4279-969e-164aef8ac376",
+                "alternate_images": [
+                  "GUEST_68a681bf-9d11-4bac-b6a4-a9cf154632cd",
+                  "GUEST_4cafc1af-2aa7-4d59-8f43-05e07230ecb9",
+                  "GUEST_ca56a1f0-1894-4419-98b3-e1cb1d130edc",
+                  "GUEST_73a6f2f0-539b-40be-bcdd-cdeafb4d81d8",
+                  "GUEST_5c8bdb3e-9131-41e0-b215-20404eded3b6",
+                  "GUEST_b2d9f75c-469b-4f8b-8a26-79ce9ec12dfb",
+                  "GUEST_d975f9c0-7631-45dc-9940-84a6386fff99",
+                  "GUEST_4bdc0080-e596-449a-ac67-b01bc1b26f67",
+                  "GUEST_6a7482d0-9392-45d9-aa1b-cc977ff02230",
+                  "GUEST_2e9b5727-5932-484f-9d26-34ce0b80afe5",
+                  "GUEST_34dc1f6b-a137-424b-96f7-e6f620165ebf",
+                  "GUEST_a8a933c5-1484-46ab-8c6e-c92c6b22f949",
+                  "GUEST_bc0f48bc-736b-4acd-a8e0-1ab4991a9442",
+                  "GUEST_cbc4d609-32c5-465c-986c-60d3b8b12b76",
+                  "GUEST_238b2de4-221a-409f-b47e-80a1bd9aabfc",
+                  "GUEST_e4d5ad2e-979d-4c89-b418-3bd00cbc905d",
+                  "GUEST_1bcb5824-1edc-4d76-b229-bd1bd2c9911f"
+                ],
+                "alternate_image_urls": [
+                  "https://target.scene7.com/is/image/Target/GUEST_68a681bf-9d11-4bac-b6a4-a9cf154632cd",
+                  "https://target.scene7.com/is/image/Target/GUEST_4cafc1af-2aa7-4d59-8f43-05e07230ecb9",
+                  "https://target.scene7.com/is/image/Target/GUEST_ca56a1f0-1894-4419-98b3-e1cb1d130edc",
+                  "https://target.scene7.com/is/image/Target/GUEST_73a6f2f0-539b-40be-bcdd-cdeafb4d81d8",
+                  "https://target.scene7.com/is/image/Target/GUEST_5c8bdb3e-9131-41e0-b215-20404eded3b6",
+                  "https://target.scene7.com/is/image/Target/GUEST_b2d9f75c-469b-4f8b-8a26-79ce9ec12dfb",
+                  "https://target.scene7.com/is/image/Target/GUEST_d975f9c0-7631-45dc-9940-84a6386fff99",
+                  "https://target.scene7.com/is/image/Target/GUEST_4bdc0080-e596-449a-ac67-b01bc1b26f67",
+                  "https://target.scene7.com/is/image/Target/GUEST_6a7482d0-9392-45d9-aa1b-cc977ff02230",
+                  "https://target.scene7.com/is/image/Target/GUEST_2e9b5727-5932-484f-9d26-34ce0b80afe5",
+                  "https://target.scene7.com/is/image/Target/GUEST_34dc1f6b-a137-424b-96f7-e6f620165ebf",
+                  "https://target.scene7.com/is/image/Target/GUEST_a8a933c5-1484-46ab-8c6e-c92c6b22f949",
+                  "https://target.scene7.com/is/image/Target/GUEST_bc0f48bc-736b-4acd-a8e0-1ab4991a9442",
+                  "https://target.scene7.com/is/image/Target/GUEST_cbc4d609-32c5-465c-986c-60d3b8b12b76",
+                  "https://target.scene7.com/is/image/Target/GUEST_238b2de4-221a-409f-b47e-80a1bd9aabfc",
+                  "https://target.scene7.com/is/image/Target/GUEST_e4d5ad2e-979d-4c89-b418-3bd00cbc905d",
+                  "https://target.scene7.com/is/image/Target/GUEST_1bcb5824-1edc-4d76-b229-bd1bd2c9911f"
+                ],
+                "content_labels": [
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_d591e3c5-4517-4279-969e-164aef8ac376"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_ca56a1f0-1894-4419-98b3-e1cb1d130edc"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_d13e69da-42d9-470c-9ebd-2b08fa6d3c2a"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_f10ad3bd-52e4-42f2-ba76-c7cb8748c072"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_a9f37219-e31b-4084-9d0a-90511c32c40a"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_1a457feb-5198-4860-a6a5-3012f4137497"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_4bdc0080-e596-449a-ac67-b01bc1b26f67"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_b2d9f75c-469b-4f8b-8a26-79ce9ec12dfb"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_34dc1f6b-a137-424b-96f7-e6f620165ebf"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_73a6f2f0-539b-40be-bcdd-cdeafb4d81d8"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_ed87c19b-b5d0-4fab-ab0e-1ffb57a7adba"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_253070a1-db1a-4fb5-8120-9580f6d46c53"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_1bcb5824-1edc-4d76-b229-bd1bd2c9911f"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_cbc4d609-32c5-465c-986c-60d3b8b12b76"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_e4d5ad2e-979d-4c89-b418-3bd00cbc905d"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_bc0f48bc-736b-4acd-a8e0-1ab4991a9442"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_68a681bf-9d11-4bac-b6a4-a9cf154632cd"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_238b2de4-221a-409f-b47e-80a1bd9aabfc"
+                  }
+                ]
+              },
+              "nutrition_facts": {
+                "ingredients": "ENRICHED MACARONI (WHEAT FLOUR, DURUM FLOUR, NIACIN, FERROUS SULFATE [IRON], THIAMIN MONONITRATE [VITAMIN B1], RIBOFLAVIN [VITAMIN B2], FOLIC ACID), CHEESE SAUCE MIX (WHEY, MILKFAT, SALT, MILK PROTEIN CONCENTRATE, SODIUM TRIPHOSPHATE, CONTAINS LESS THAN 2% OF TAPIOCA FLOUR, CITRIC ACID, LACTIC ACID, SODIUM PHOSPHATE, CALCIUM PHOSPHATE, WITH PAPRIKA, TURMERIC, AND ANNATTO ADDED FOR COLOR, ENZYMES, CHEESE CULTURE). ",
+                "nutrition_label_type_code": "LEGACY_FORMAT",
+                "value_prepared_list": [
+                  {
+                    "description": "Per 2.5 oz\ndry mix",
+                    "serving_size": "2.5",
+                    "serving_size_unit_of_measurement": "oz",
+                    "servings_per_container": "About 3",
+                    "nutrients": [
+                      {
+                        "name": "Calories",
+                        "quantity": 250.0,
+                        "unit_of_measurement": "Cal"
+                      },
+                      {
+                        "name": "Total Fat",
+                        "percentage": 2.0,
+                        "quantity": 2.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Saturated Fat",
+                        "percentage": 4.0,
+                        "quantity": 1.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Trans Fat",
+                        "quantity": 0.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Cholesterol",
+                        "percentage": 2.0,
+                        "quantity": 5.0,
+                        "unit_of_measurement": "mg"
+                      },
+                      {
+                        "name": "Sodium",
+                        "percentage": 24.0,
+                        "quantity": 560.0,
+                        "unit_of_measurement": "mg"
+                      },
+                      {
+                        "name": "Total Carbohydrate",
+                        "percentage": 18.0,
+                        "quantity": 49.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Dietary Fiber",
+                        "percentage": 8.0,
+                        "quantity": 2.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Sugars",
+                        "quantity": 9.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Added Sugars",
+                        "percentage": 0.0,
+                        "quantity": 0.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Protein",
+                        "quantity": 9.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Vitamin D",
+                        "percentage": 0.0,
+                        "quantity": 0.0,
+                        "unit_of_measurement": "mcg"
+                      },
+                      {
+                        "name": "Calcium",
+                        "percentage": 8.0,
+                        "quantity": 110.0,
+                        "unit_of_measurement": "mg"
+                      },
+                      {
+                        "name": "Iron",
+                        "percentage": 15.0,
+                        "quantity": 2.5,
+                        "unit_of_measurement": "mg"
+                      },
+                      {
+                        "name": "Potassium",
+                        "percentage": 8.0,
+                        "quantity": 330.0,
+                        "unit_of_measurement": "mg"
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Per 1 cup\nprepared*",
+                    "nutrients": [
+                      {
+                        "name": "Calories",
+                        "quantity": 350.0,
+                        "unit_of_measurement": "Cal"
+                      },
+                      {
+                        "name": "Total Fat",
+                        "percentage": 15.0,
+                        "quantity": 11.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Saturated Fat",
+                        "percentage": 19.0,
+                        "quantity": 4.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Trans Fat",
+                        "quantity": 0.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Cholesterol",
+                        "percentage": 3.0,
+                        "quantity": 10.0,
+                        "unit_of_measurement": "mg"
+                      },
+                      {
+                        "name": "Sodium",
+                        "percentage": 31.0,
+                        "quantity": 710.0,
+                        "unit_of_measurement": "mg"
+                      },
+                      {
+                        "name": "Total Carbohydrate",
+                        "percentage": 18.0,
+                        "quantity": 50.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Dietary Fiber",
+                        "percentage": 8.0,
+                        "quantity": 2.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Sugars",
+                        "quantity": 10.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Added Sugars",
+                        "percentage": 0.0,
+                        "quantity": 0.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Protein",
+                        "quantity": 10.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Vitamin D",
+                        "percentage": 0.0,
+                        "quantity": 0.0,
+                        "unit_of_measurement": "mcg"
+                      },
+                      {
+                        "name": "Calcium",
+                        "percentage": 10.0,
+                        "quantity": 130.0,
+                        "unit_of_measurement": "mg"
+                      },
+                      {
+                        "name": "Iron",
+                        "percentage": 15.0,
+                        "quantity": 2.5,
+                        "unit_of_measurement": "mg"
+                      },
+                      {
+                        "name": "Potassium",
+                        "percentage": 8.0,
+                        "quantity": 370.0,
+                        "unit_of_measurement": "mg"
+                      }
+                    ]
+                  }
+                ],
+                "warning": "CONTAINS: WHEAT, MILK."
+              },
+              "videos": [
+                {
+                  "video_captions": [
+                    {
+                      "caption_url": "https://target.scene7.com/is/content/Target/GUEST_092d54ed-02ba-44e3-8d0a-604ce2006b62",
+                      "language": "EN"
+                    }
+                  ],
+                  "video_files": [
+                    {
+                      "mime_type": "video/mp4",
+                      "video_height_pixels": "720",
+                      "video_url": "https://target.scene7.com/is/content/Target/GUEST_1e9cd18b-6da6-4b23-84b4-a786b0f22e7e_Flash9_Autox720p_2600k"
+                    }
+                  ],
+                  "video_length_seconds": "8",
+                  "video_poster_image": "https://target.scene7.com/is/image/Target/GUEST_1e9cd18b-6da6-4b23-84b4-a786b0f22e7e",
+                  "video_title": "Kraft Original Mac & Cheese Dinner, 5 ct Pack"
+                },
+                {
+                  "video_captions": [
+                    {
+                      "caption_url": "https://target.scene7.com/is/content/Target/GUEST_9a1324ba-bdf2-4c56-8714-30dca75599e4",
+                      "language": "EN"
+                    }
+                  ],
+                  "video_files": [
+                    {
+                      "mime_type": "video/mp4",
+                      "video_height_pixels": "720",
+                      "video_url": "https://target.scene7.com/is/content/Target/GUEST_2f1db202-4be7-4b5b-91f2-a0b2da142211_Flash9_Autox720p_2600k"
+                    }
+                  ],
+                  "video_length_seconds": "10",
+                  "video_poster_image": "https://target.scene7.com/is/image/Target/GUEST_2f1db202-4be7-4b5b-91f2-a0b2da142211",
+                  "video_title": "Kraft Original Macaroni & Cheese Dinner A"
+                }
+              ],
+              "return_policies": [
+                {
+                  "user_type": "best_guest",
+                  "day_count": 120
+                },
+                {
+                  "user_type": "regular_guest",
+                  "day_count": 90
+                }
+              ]
+            },
+            "environmental_segmentation": {
+              "is_hazardous_material": false
+            },
+            "formatted_return_method": "This item can be returned to any Target store or Target.com.",
+            "fulfillment": {
+              "is_gift_wrap_eligible": true,
+              "purchase_limit": 10
+            },
+            "handling": {
+              "import_designation_description": "Made in the USA or Imported"
+            },
+            "is_limited_time_offer": false,
+            "merchandise_classification": {
+              "class_id": 14,
+              "department_id": 212,
+              "department_name": "MEAL ESSENTIALS"
+            },
+            "package_dimensions": {
+              "depth": 7.09,
+              "dimension_unit_of_measure": "INCH",
+              "height": 1.43,
+              "weight": 0.5,
+              "weight_unit_of_measure": "POUND",
+              "width": 3.54
+            },
+            "primary_barcode": "021000658831",
+            "primary_brand": {
+              "canonical_url": "/b/kraft/-/N-5scoh",
+              "linking_id": "5scoh",
+              "name": "Kraft"
+            },
+            "product_description": {
+              "bullet_descriptions": [
+                "<B>Contains:</B> Milk, Wheat",
+                "<B>May Contain:</B> Eggs",
+                "<B>State of Readiness:</B> Prepared, Heat and Serve",
+                "<B>Package Quantity:</B> 1",
+                "<B>Net weight:</B> 7.25 Ounces"
+              ],
+              "downstream_description": "Kraft Original Macaroni & Cheese Dinner is a convenient boxed dinner. Kids and adults love the delicious taste of macaroni with cheesy goodness. Our 7.25 ounce mac and cheese dinner includes macaroni pasta and original flavor cheese sauce mix, so you just need milk and margarine or butter to make a tasty mac and cheese dinner kids love. With no artificial flavors, no artificial preservatives, and no artificial dyes, Kraft macaroni and cheese is always a great family dinner choice. Preparing macaroni and cheese is a breeze. Just boil the pasta for 7-8 minutes, drain the water and stir in the cheese mix, milk and margarine or butter. Now you can have your Kraft mac and cheese and eat it too.",
+              "soft_bullet_description": "&bull;One 7.25 oz box of Kraft Original Macaroni & Cheese Dinner<br>&bull;Kraft Original Macaroni & Cheese is a convenient boxed dinner<br>&bull;Box includes macaroni noodles and original flavor cheese sauce mix<br>&bull;Kraft mac and cheese contains no artificial flavors, no artificial preservatives, and no artificial dyes<br>&bull;One box makes about 3 servings<br>&bull;Boxed macaroni and cheese is a quick and easy dinner<br>&bull;Cheese sauce mix is individually sealed<br>&bull;SNAP & EBT eligible food item",
+              "soft_bullets": {
+                "bullets": [
+                  "One 7.25 oz box of Kraft Original Macaroni & Cheese Dinner",
+                  "Kraft Original Macaroni & Cheese is a convenient boxed dinner",
+                  "Box includes macaroni noodles and original flavor cheese sauce mix",
+                  "Kraft mac and cheese contains no artificial flavors, no artificial preservatives, and no artificial dyes",
+                  "One box makes about 3 servings",
+                  "Boxed macaroni and cheese is a quick and easy dinner",
+                  "Cheese sauce mix is individually sealed",
+                  "SNAP & EBT eligible food item"
+                ],
+                "title": "highlights"
+              },
+              "title": "Kraft Macaroni &#38; Cheese Dinner Original - 7.25oz"
+            },
+            "product_vendors": [
+              {
+                "id": "2965716",
+                "vendor_name": "KRAFT FOODS GROUP INC"
+              },
+              {
+                "id": "1213676",
+                "vendor_name": "STORE ONLY DUMMY VENDOR"
+              }
+            ],
+            "relationship_type_code": "VC",
+            "return_policies_guest_message": "This item must be returned within 90 days of the date it was purchased in store, shipped, delivered by a Shipt shopper, or made ready for pickup. If purchased online with SNAP EBT, this item must be returned within 90 days of the date it was shipped, delivered by a Shipt shopper, or made ready for pickup. This 90-day return window is required by SNAP.",
+            "wellness_merchandise_attributes": []
+          },
+          "price": {
+            "formatted_current_price": "$0.99",
+            "formatted_current_price_type": "reg",
+            "location_id": 3991,
+            "current_retail": 0.99,
+            "external_system_id": "445d879998cd46a481ec6849104138db",
+            "reg_retail": 0.99,
+            "is_current_price_range": false
+          },
+          "promotions": []
+        },
+        {
+          "__typename": "Product",
+          "tcin": "17079480",
+          "item": {
+            "cart_add_on_threshold": 35.0,
+            "compliance": {
+              "is_proposition_65": false
+            },
+            "disclaimer": {
+              "description": "Content on this site is for reference purposes only.  Target does not represent or warrant that the nutrition, ingredient, allergen and other product information on our Web or Mobile sites are accurate or complete, since this information comes from the product manufacturers.  On occasion, manufacturers may improve or change their product formulas and update their labels.  We recommend that you do not rely solely on the information presented on our Web or Mobile sites and that you review the product's label or contact the manufacturer directly if you have specific product concerns or questions.  If you have specific healthcare concerns or questions about the products displayed, please contact your licensed healthcare professional for advice or answers.  Any additional pictures are suggested servings only.",
+              "type": "Grocery Disclaimer"
+            },
+            "dpci": "212-14-0323",
+            "eligibility_rules": {
+              "add_on": {
+                "is_active": true
+              },
+              "hold": {
+                "is_active": true
+              },
+              "inventory_notification_to_guest_excluded": {
+                "is_active": true
+              },
+              "scheduled_delivery": {
+                "is_active": true
+              },
+              "ship_to_guest": {
+                "is_active": true
+              }
+            },
+            "enrichment": {
+              "buy_url": "https://www.target.com/p/kraft-macaroni-38-cheese-original-flavor-36-25oz-5pk/-/A-17079480",
+              "images": {
+                "base_url": "//target.scene7.com/is/image/Target/",
+                "primary_image_url": "https://target.scene7.com/is/image/Target/GUEST_268812f5-e600-4020-a0d4-14d5b1e19e4a",
+                "primary_image": "GUEST_268812f5-e600-4020-a0d4-14d5b1e19e4a",
+                "alternate_images": [
+                  "GUEST_8b09bc62-a8d0-4f35-82a1-95d8f79401e5",
+                  "GUEST_1a457feb-5198-4860-a6a5-3012f4137497",
+                  "GUEST_e7191932-397d-401c-8085-f7797e612f81",
+                  "GUEST_73a6f2f0-539b-40be-bcdd-cdeafb4d81d8",
+                  "GUEST_a9f37219-e31b-4084-9d0a-90511c32c40a",
+                  "GUEST_23ef418f-7ddc-4531-abcf-ae80939f8844",
+                  "GUEST_d13e69da-42d9-470c-9ebd-2b08fa6d3c2a",
+                  "GUEST_cca912d1-1d3a-4661-b21b-13f955ec01c7",
+                  "GUEST_253070a1-db1a-4fb5-8120-9580f6d46c53",
+                  "GUEST_d881bd7d-b177-4a76-af8f-bd3a6caaa387",
+                  "GUEST_ed87c19b-b5d0-4fab-ab0e-1ffb57a7adba",
+                  "GUEST_09575d22-f0ac-4956-b904-25cb05afc62f",
+                  "GUEST_34dc1f6b-a137-424b-96f7-e6f620165ebf",
+                  "GUEST_f10ad3bd-52e4-42f2-ba76-c7cb8748c072",
+                  "GUEST_612244d9-e8fa-4679-9a9f-e26245d7720d",
+                  "GUEST_3b2fce5c-a7e9-4937-8b37-bb047e481725",
+                  "GUEST_9dc569f6-e3d8-45ac-acd1-d4ab4de6f3d1",
+                  "GUEST_6af90d39-3101-41b6-8884-259ab90bf431",
+                  "GUEST_e6b79bee-ca72-45f5-aed2-6ed277cc1b19"
+                ],
+                "alternate_image_urls": [
+                  "https://target.scene7.com/is/image/Target/GUEST_8b09bc62-a8d0-4f35-82a1-95d8f79401e5",
+                  "https://target.scene7.com/is/image/Target/GUEST_1a457feb-5198-4860-a6a5-3012f4137497",
+                  "https://target.scene7.com/is/image/Target/GUEST_e7191932-397d-401c-8085-f7797e612f81",
+                  "https://target.scene7.com/is/image/Target/GUEST_73a6f2f0-539b-40be-bcdd-cdeafb4d81d8",
+                  "https://target.scene7.com/is/image/Target/GUEST_a9f37219-e31b-4084-9d0a-90511c32c40a",
+                  "https://target.scene7.com/is/image/Target/GUEST_23ef418f-7ddc-4531-abcf-ae80939f8844",
+                  "https://target.scene7.com/is/image/Target/GUEST_d13e69da-42d9-470c-9ebd-2b08fa6d3c2a",
+                  "https://target.scene7.com/is/image/Target/GUEST_cca912d1-1d3a-4661-b21b-13f955ec01c7",
+                  "https://target.scene7.com/is/image/Target/GUEST_253070a1-db1a-4fb5-8120-9580f6d46c53",
+                  "https://target.scene7.com/is/image/Target/GUEST_d881bd7d-b177-4a76-af8f-bd3a6caaa387",
+                  "https://target.scene7.com/is/image/Target/GUEST_ed87c19b-b5d0-4fab-ab0e-1ffb57a7adba",
+                  "https://target.scene7.com/is/image/Target/GUEST_09575d22-f0ac-4956-b904-25cb05afc62f",
+                  "https://target.scene7.com/is/image/Target/GUEST_34dc1f6b-a137-424b-96f7-e6f620165ebf",
+                  "https://target.scene7.com/is/image/Target/GUEST_f10ad3bd-52e4-42f2-ba76-c7cb8748c072",
+                  "https://target.scene7.com/is/image/Target/GUEST_612244d9-e8fa-4679-9a9f-e26245d7720d",
+                  "https://target.scene7.com/is/image/Target/GUEST_3b2fce5c-a7e9-4937-8b37-bb047e481725",
+                  "https://target.scene7.com/is/image/Target/GUEST_9dc569f6-e3d8-45ac-acd1-d4ab4de6f3d1",
+                  "https://target.scene7.com/is/image/Target/GUEST_6af90d39-3101-41b6-8884-259ab90bf431",
+                  "https://target.scene7.com/is/image/Target/GUEST_e6b79bee-ca72-45f5-aed2-6ed277cc1b19"
+                ],
+                "content_labels": [
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_ca56a1f0-1894-4419-98b3-e1cb1d130edc"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_d13e69da-42d9-470c-9ebd-2b08fa6d3c2a"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_f10ad3bd-52e4-42f2-ba76-c7cb8748c072"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_a9f37219-e31b-4084-9d0a-90511c32c40a"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_1a457feb-5198-4860-a6a5-3012f4137497"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_b2d9f75c-469b-4f8b-8a26-79ce9ec12dfb"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_34dc1f6b-a137-424b-96f7-e6f620165ebf"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_73a6f2f0-539b-40be-bcdd-cdeafb4d81d8"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_ed87c19b-b5d0-4fab-ab0e-1ffb57a7adba"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_253070a1-db1a-4fb5-8120-9580f6d46c53"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_d881bd7d-b177-4a76-af8f-bd3a6caaa387"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_cca912d1-1d3a-4661-b21b-13f955ec01c7"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_09575d22-f0ac-4956-b904-25cb05afc62f"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_8b09bc62-a8d0-4f35-82a1-95d8f79401e5"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_6af90d39-3101-41b6-8884-259ab90bf431"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_9dc569f6-e3d8-45ac-acd1-d4ab4de6f3d1"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_612244d9-e8fa-4679-9a9f-e26245d7720d"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_e6b79bee-ca72-45f5-aed2-6ed277cc1b19"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_3b2fce5c-a7e9-4937-8b37-bb047e481725"
+                  },
+                  {
+                    "image_url": "https://target.scene7.com/is/image/Target/GUEST_268812f5-e600-4020-a0d4-14d5b1e19e4a"
+                  }
+                ]
+              },
+              "nutrition_facts": {
+                "ingredients": "ENRICHED MACARONI (WHEAT FLOUR, DURUM FLOUR, NIACIN, FERROUS SULFATE [IRON], THIAMIN MONONITRATE [VITAMIN B1], RIBOFLAVIN [VITAMIN B2], FOLIC ACID), CHEESE SAUCE MIX (WHEY, MILKFAT, SALT, MILK PROTEIN CONCENTRATE, SODIUM TRIPHOSPHATE, CONTAINS LESS THAN 2% OF TAPIOCA FLOUR, CITRIC ACID, LACTIC ACID, SODIUM PHOSPHATE, CALCIUM PHOSPHATE, WITH PAPRIKA, TURMERIC, AND ANNATTO ADDED FOR COLOR, ENZYMES, CHEESE CULTURE). ",
+                "nutrition_label_type_code": "LEGACY_FORMAT",
+                "value_prepared_list": [
+                  {
+                    "description": "Per 2.5 oz dry mix",
+                    "serving_size": "2.5",
+                    "serving_size_unit_of_measurement": "oz",
+                    "servings_per_container": "About 15",
+                    "nutrients": [
+                      {
+                        "name": "Calories",
+                        "quantity": 250.0,
+                        "unit_of_measurement": "Cal"
+                      },
+                      {
+                        "name": "Total Fat",
+                        "percentage": 2.0,
+                        "quantity": 2.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Saturated Fat",
+                        "percentage": 4.0,
+                        "quantity": 1.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Trans Fat",
+                        "quantity": 0.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Cholesterol",
+                        "percentage": 2.0,
+                        "quantity": 5.0,
+                        "unit_of_measurement": "mg"
+                      },
+                      {
+                        "name": "Sodium",
+                        "percentage": 24.0,
+                        "quantity": 560.0,
+                        "unit_of_measurement": "mg"
+                      },
+                      {
+                        "name": "Total Carbohydrate",
+                        "percentage": 18.0,
+                        "quantity": 49.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Dietary Fiber",
+                        "percentage": 8.0,
+                        "quantity": 2.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Sugars",
+                        "quantity": 9.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Added Sugars",
+                        "percentage": 0.0,
+                        "quantity": 0.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Protein",
+                        "quantity": 9.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Vitamin D",
+                        "percentage": 0.0,
+                        "quantity": 0.0,
+                        "unit_of_measurement": "mcg"
+                      },
+                      {
+                        "name": "Calcium",
+                        "percentage": 8.0,
+                        "quantity": 110.0,
+                        "unit_of_measurement": "mg"
+                      },
+                      {
+                        "name": "Iron",
+                        "percentage": 15.0,
+                        "quantity": 2.5,
+                        "unit_of_measurement": "mg"
+                      },
+                      {
+                        "name": "Potassium",
+                        "percentage": 8.0,
+                        "quantity": 330.0,
+                        "unit_of_measurement": "mg"
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Per 1 cup prepared*",
+                    "nutrients": [
+                      {
+                        "name": "Calories",
+                        "quantity": 350.0,
+                        "unit_of_measurement": "Cal"
+                      },
+                      {
+                        "name": "Total Fat",
+                        "percentage": 15.0,
+                        "quantity": 11.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Saturated Fat",
+                        "percentage": 19.0,
+                        "quantity": 4.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Trans Fat",
+                        "quantity": 0.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Cholesterol",
+                        "percentage": 3.0,
+                        "quantity": 10.0,
+                        "unit_of_measurement": "mg"
+                      },
+                      {
+                        "name": "Sodium",
+                        "percentage": 31.0,
+                        "quantity": 710.0,
+                        "unit_of_measurement": "mg"
+                      },
+                      {
+                        "name": "Total Carbohydrate",
+                        "percentage": 18.0,
+                        "quantity": 50.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Dietary Fiber",
+                        "percentage": 8.0,
+                        "quantity": 2.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Sugars",
+                        "quantity": 10.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Added Sugars",
+                        "percentage": 0.0,
+                        "quantity": 0.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Protein",
+                        "quantity": 10.0,
+                        "unit_of_measurement": "g"
+                      },
+                      {
+                        "name": "Vitamin D",
+                        "percentage": 0.0,
+                        "quantity": 0.0,
+                        "unit_of_measurement": "mcg"
+                      },
+                      {
+                        "name": "Calcium",
+                        "percentage": 10.0,
+                        "quantity": 130.0,
+                        "unit_of_measurement": "mg"
+                      },
+                      {
+                        "name": "Iron",
+                        "percentage": 15.0,
+                        "quantity": 2.5,
+                        "unit_of_measurement": "mg"
+                      },
+                      {
+                        "name": "Potassium",
+                        "percentage": 8.0,
+                        "quantity": 370.0,
+                        "unit_of_measurement": "mg"
+                      }
+                    ]
+                  }
+                ],
+                "warning": "CONTAINS: WHEAT, MILK."
+              },
+              "videos": [
+                {
+                  "video_captions": [
+                    {
+                      "caption_url": "https://target.scene7.com/is/content/Target/GUEST_092d54ed-02ba-44e3-8d0a-604ce2006b62",
+                      "language": "EN"
+                    }
+                  ],
+                  "video_files": [
+                    {
+                      "mime_type": "video/mp4",
+                      "video_height_pixels": "720",
+                      "video_url": "https://target.scene7.com/is/content/Target/GUEST_1e9cd18b-6da6-4b23-84b4-a786b0f22e7e_Flash9_Autox720p_2600k"
+                    }
+                  ],
+                  "video_length_seconds": "8",
+                  "video_poster_image": "https://target.scene7.com/is/image/Target/GUEST_1e9cd18b-6da6-4b23-84b4-a786b0f22e7e",
+                  "video_title": "Kraft Original Mac & Cheese Dinner, 5 ct Pack"
+                },
+                {
+                  "video_captions": [
+                    {
+                      "caption_url": "https://target.scene7.com/is/content/Target/GUEST_9a1324ba-bdf2-4c56-8714-30dca75599e4",
+                      "language": "EN"
+                    }
+                  ],
+                  "video_files": [
+                    {
+                      "mime_type": "video/mp4",
+                      "video_height_pixels": "720",
+                      "video_url": "https://target.scene7.com/is/content/Target/GUEST_2f1db202-4be7-4b5b-91f2-a0b2da142211_Flash9_Autox720p_2600k"
+                    }
+                  ],
+                  "video_length_seconds": "10",
+                  "video_poster_image": "https://target.scene7.com/is/image/Target/GUEST_2f1db202-4be7-4b5b-91f2-a0b2da142211",
+                  "video_title": "Kraft Original Macaroni & Cheese Dinner A"
+                }
+              ],
+              "return_policies": [
+                {
+                  "user_type": "best_guest",
+                  "day_count": 120
+                },
+                {
+                  "user_type": "regular_guest",
+                  "day_count": 90
+                }
+              ]
+            },
+            "environmental_segmentation": {
+              "is_hazardous_material": false
+            },
+            "formatted_return_method": "This item can be returned to any Target store or Target.com.",
+            "fulfillment": {
+              "is_gift_wrap_eligible": true,
+              "purchase_limit": 10
+            },
+            "handling": {
+              "import_designation_description": "Made in the USA or Imported"
+            },
+            "merchandise_classification": {
+              "class_id": 14,
+              "department_id": 212,
+              "department_name": "MEAL ESSENTIALS"
+            },
+            "package_dimensions": {
+              "depth": 7.2,
+              "dimension_unit_of_measure": "INCH",
+              "height": 3.6,
+              "weight": 2.715,
+              "weight_unit_of_measure": "POUND",
+              "width": 7.4
+            },
+            "primary_barcode": "021000774364",
+            "primary_brand": {
+              "canonical_url": "/b/kraft/-/N-5scoh",
+              "linking_id": "5scoh",
+              "name": "Kraft"
+            },
+            "product_description": {
+              "bullet_descriptions": [
+                "<B>Contains:</B> Milk, Wheat",
+                "<B>State of Readiness:</B> Prepared, Heat and Serve",
+                "<B>Package Quantity:</B> 5",
+                "<B>Net weight:</B> 36.25 Ounces"
+              ],
+              "downstream_description": "Kraft Original Macaroni & Cheese Dinners are a convenient boxed dinner. Kids and adults love the delicious taste of macaroni with cheesy goodness. Each 7.25 ounce mac and cheese dinner in this 5 count pack includes macaroni pasta and original flavor cheese sauce mix, so you just need milk and margarine or butter to make a tasty family dinner kids will love. With no artificial preservatives or flavors and no artificial dyes, Kraft macaroni and cheese is always a great family dinner choice. Preparing macaroni and cheese is a breeze. Just boil the pasta for 7-8 minutes, drain the water and stir in the cheese mix, milk and margarine or butter. Now you can have your Kraft mac and cheese and eat it too. ",
+              "soft_bullet_description": "&bull;Five 7.25 oz boxes of Kraft Original Macaroni & Cheese Dinner<br>&bull;Kraft Original Macaroni & Cheese Dinners are a convenient boxed dinner<br>&bull;Box includes macaroni pasta and original flavor cheese sauce mix<br>&bull;Kraft mac and cheese contains no artificial preservatives or flavors and no artificial dyes<br>&bull;One box makes about 3 servings<br>&bull;Boxed macaroni and cheese is a quick and easy dinner<br>&bull;Cheese sauce mix is individually sealed<br>&bull;SNAP & EBT eligible food item",
+              "soft_bullets": {
+                "bullets": [
+                  "Five 7.25 oz boxes of Kraft Original Macaroni & Cheese Dinner",
+                  "Kraft Original Macaroni & Cheese Dinners are a convenient boxed dinner",
+                  "Box includes macaroni pasta and original flavor cheese sauce mix",
+                  "Kraft mac and cheese contains no artificial preservatives or flavors and no artificial dyes",
+                  "One box makes about 3 servings",
+                  "Boxed macaroni and cheese is a quick and easy dinner",
+                  "Cheese sauce mix is individually sealed",
+                  "SNAP & EBT eligible food item"
+                ],
+                "title": "highlights"
+              },
+              "title": "Kraft Macaroni &#38; Cheese Original Flavor - 36.25oz/5pk"
+            },
+            "product_vendors": [
+              {
+                "id": "2965716",
+                "vendor_name": "KRAFT FOODS GROUP INC"
+              }
+            ],
+            "relationship_type_code": "VC",
+            "return_policies_guest_message": "This item must be returned within 90 days of the date it was purchased in store, shipped, delivered by a Shipt shopper, or made ready for pickup. If purchased online with SNAP EBT, this item must be returned within 90 days of the date it was shipped, delivered by a Shipt shopper, or made ready for pickup. This 90-day return window is required by SNAP.",
+            "wellness_merchandise_attributes": []
+          },
+          "price": {
+            "formatted_current_price": "$4.89",
+            "formatted_current_price_type": "reg",
+            "location_id": 3991,
+            "current_retail": 4.89,
+            "external_system_id": "17079480-3991-4.89-2022052716",
+            "reg_retail": 4.89,
+            "is_current_price_range": false
+          },
+          "promotions": []
+        }
+      ]
+    }
+  }
+}

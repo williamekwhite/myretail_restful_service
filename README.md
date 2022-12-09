@@ -78,6 +78,11 @@ curl --request PUT \
   --data '{"current_price": {"value": 13.49,"currency_code": "GBP"}}'
 ```
 
+## Testing
+Basic testing has been setup with [PHPUnit](https://phpunit.de/). Tests can be run with the following command. NOTE: if there are new files, you may want to run the composer dump-autoload command to refresh composer cache.
+```
+./tests.sh
+```
 
 ## Improvements
 Given the nature of the problem being solved, the time constraints, and the technology, there are many areas where improvement could be made with the code.
