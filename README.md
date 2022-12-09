@@ -24,27 +24,28 @@ The goal of the application is to house a RESTful service that can retrieve prod
 
 ## Setup
 
-First, you need to configure your Docker Environment. You can do this by creating a `.env.app` file in the `/docker` directory. Below is the text to use. Please set your GitHub Personal Access token that you fetched from above. This will allow your Docker container to access private GitHub repositories through composer.
+### First, you need to configure your Docker Environment. You can do this by creating a `.env.app` file in the `/docker` directory. Below is the text to use. Please set your GitHub Personal Access token that you fetched from above. This will allow your Docker container to access private GitHub repositories through composer.
 ```
 COMPOSER_AUTH='{"github-oauth":{"github.com":"TOKEN HERE"}}'
 ```
 
-To install, run the install command
+### To install, run the install command
 ```
 ./install.sh
 ```
 
-Setup application config file. Start in the `/app` directory. You may need to adjust settings based on your setup.
+### Setup application config file. Start in the `/app` directory. You may need to adjust settings based on your setup.
 ```
 cp config.php.example config.php
 ```
 
-Seed the DB
+### Fetch an API Key
+You will need to fetch an API key from Target.com. The URL has changed and the original is no longer available, so this is a workaround. Please visit a product page on Target's main website like [this](https://www.target.com/p/jetson-mojo-light-up-hoverboard-with-bluetooth-speaker-brass-gold/-/A-85895671). Once you are there you will need to explore the network requests. Look for any request going to *target.com. Grab the query paramenter `key`. That should be set as the `REDSKY_API_KEY`. The expiration time for this key is unknown at this point, but has been confirmed to last for at least 3 hours.
+
+### Seed the DB
 ```
 docker exec myretail_restful_service-app-1 php cli.php seed-db
 ```
-
-
 
 If you visit [http://localhost:8888](http://localhost:8888) you should see a welcome message. This means you have successfully setup your environment.
 
@@ -76,3 +77,14 @@ curl --request PUT \
   --header 'Content-Type: application/json' \
   --data '{"current_price": {"value": 13.49,"currency_code": "GBP"}}'
 ```
+
+
+## Improvements
+Given the nature of the problem being solved, the time constraints, and the technology, there are many areas where improvement could be made with the code.
+* More robust testing
+* Better status handling for the RedSky API
+* Better MVC framework that allows for better abstraction and "for free" data abstraction and ORM
+* Using better MVC, separate out the RedSky API data in the Product model into an aggregator or response class
+* Improved validation on the Product `current_price` field
+* Improve DB seeding and make it more robust
+* Create full CRUD for the Product model

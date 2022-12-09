@@ -1,19 +1,15 @@
 {
 	"info": {
-		"_postman_id": "868d2cc2-293e-4732-8747-45b93c8e1ecd",
+		"_postman_id": "2d4f7dd0-adb9-4384-8a0c-4ceb094512bb",
 		"name": "myRetail RESTful service",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "Home",
+			"name": "/",
 			"request": {
 				"method": "GET",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": ""
-				},
 				"url": {
 					"raw": "{{url}}/",
 					"host": [
@@ -27,14 +23,10 @@
 			"response": []
 		},
 		{
-			"name": "API Home",
+			"name": "/api",
 			"request": {
 				"method": "GET",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": ""
-				},
 				"url": {
 					"raw": "{{url}}/api",
 					"host": [
@@ -48,30 +40,26 @@
 			"response": []
 		},
 		{
-			"name": "Product Details",
+			"name": "/api/products/{id}",
 			"request": {
 				"method": "GET",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": ""
-				},
 				"url": {
-					"raw": "{{url}}/api/products/13860428",
+					"raw": "{{url}}/api/products/12954218",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"api",
 						"products",
-						"13860428"
+						"12954218"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "Update Product",
+			"name": "/api/products/{id}",
 			"request": {
 				"method": "PUT",
 				"header": [
@@ -84,7 +72,7 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"current_price\": {\n        \"value\": 13.49,\n        \"currency_code\": \"GBP\"\n    }\n}"
+					"raw": "{\n    \"current_price\": {\n        \"value\": 41777.49,\n        \"currency_code\": \"GBP\"\n    }\n}"
 				},
 				"url": {
 					"raw": "{{url}}/api/products/13264003",
@@ -105,12 +93,8 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": ""
-				},
 				"url": {
-					"raw": "https://redsky.target.com/v3/pdp/tcin/13860428?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate",
+					"raw": "https://redsky.target.com/redsky_aggregations/v1/web/pdp_client_v1?key=999999999999999&tcin=12954218&pricing_store_id=2406",
 					"protocol": "https",
 					"host": [
 						"redsky",
@@ -118,19 +102,23 @@
 						"com"
 					],
 					"path": [
-						"v3",
-						"pdp",
-						"tcin",
-						"13860428"
+						"redsky_aggregations",
+						"v1",
+						"web",
+						"pdp_client_v1"
 					],
 					"query": [
 						{
-							"key": "excludes",
-							"value": "taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics"
+							"key": "key",
+							"value": "999999999999999"
 						},
 						{
-							"key": "key",
-							"value": "candidate"
+							"key": "tcin",
+							"value": "12954218"
+						},
+						{
+							"key": "pricing_store_id",
+							"value": "2406"
 						}
 					]
 				}

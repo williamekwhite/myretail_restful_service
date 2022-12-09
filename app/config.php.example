@@ -3,11 +3,13 @@
  * Define Application Wide Constants for this environment
  */
 
-// Disable Public Error Messages
-$app->addErrorMiddleware(false,false,false);
-
 // Database
 const MONGODB_CLUSTERADDR = 'mongo:27017';
 const MONGODB_DATABASE = 'myRetail';
 const MONGODB_USERNAME = 'root';
 const MONGODB_PASSWORD = 'password';
+
+// API Info
+const REDSKY_API_PRODUCT_ENDPOINT = 'https://redsky.target.com/redsky_aggregations/v1/web/pdp_client_v1';
+const REDSKY_API_KEY = '';
+const REDSKY_API_PRODUCT_PRICING_STORE_ID = '2406';

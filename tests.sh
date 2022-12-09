@@ -1,4 +1,7 @@
 #!/bin/sh
 
-# To start the application you must first start the application. You can do this by starting docker-compose from the `/docker` directory.
-docker-compose --project-directory ./docker up -d
+# Rebuild files --- Run if new files added
+#docker exec myretail_restful_service-app-1 composer dump-autoload
+
+# Run tests
+docker exec myretail_restful_service-app-1 ./vendor/bin/phpunit tests

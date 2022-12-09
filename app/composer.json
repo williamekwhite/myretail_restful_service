@@ -1,8 +1,14 @@
 {
+    "autoload": {
+        "classmap": [
+            "./"
+        ]
+    },
     "require": {
         "slim/slim": "4.*",
         "slim/psr7": "1.*",
         "guzzlehttp/guzzle": "^7.0",
-        "mongodb/mongodb": "^1.7"
+        "mongodb/mongodb": "^1.7",
+        "phpunit/phpunit": "^9"
     }
 }

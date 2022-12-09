@@ -3,6 +3,8 @@ use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Routing\RouteCollectorProxy;
 
+use service\ProductService;
+
 /*
  * API routes
  */
@@ -17,8 +19,8 @@ $app->group('/api', function (RouteCollectorProxy $group) {
 
     // Products
     $group->get('/products/{id}', function (Request $request, Response $response, $args) {
-        $productData = new \lib\ProductData();
-        $product = $productData->getProduct($args['id']);
+        $productService = new ProductService();
+        $product = $productService->getProduct($args['id']);
 
         // If no product found, return a 404 with a message
         if(!$product) {
@@ -27,7 +29,7 @@ $app->group('/api', function (RouteCollectorProxy $group) {
             return $response->withHeader('Content-Type', 'application/json')->withStatus(404);
         }
 
-        $payload = json_encode($product);
+        $payload = json_encode($product->getResponseFormat());
         $response->getBody()->write($payload);
         return $response->withHeader('Content-Type', 'application/json');
     });
@@ -43,25 +45,19 @@ $app->group('/api', function (RouteCollectorProxy $group) {
         }
 
         // Update product
-        $productData = new \lib\ProductData();
-        $isProductUpdated = $productData->updateProductDB($args['id'], $fields);
+        $productService = new ProductService();
+        $productUpdatedStatus = $productService->updateProductDB($args['id'], $fields);
 
         // If unsuccessful
-        if($isProductUpdated === 0) {
+        if($productUpdatedStatus < 1) {
             $payload = json_encode(['message' => 'There was an issue updating the product']);
             $response->getBody()->write($payload);
             return $response->withHeader('Content-Type', 'application/json')->withStatus(400);
         }
 
-        // If upserted sucessfully
-        if($isProductUpdated === 2) {
-            $payload = json_encode(['message' => 'Product Inserted Successfully']);
-            $response->getBody()->write($payload);
-            return $response->withHeader('Content-Type', 'application/json')->withStatus(201);
-        }
-
         // If successfully updated
-        $payload = json_encode(['message' => 'Product Updated Successfully']);
+        $product = $productService->getProduct($args['id']);
+        $payload = json_encode($product->getResponseFormat());
         $response->getBody()->write($payload);
         return $response->withHeader('Content-Type', 'application/json');
     });
