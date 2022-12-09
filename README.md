@@ -11,8 +11,9 @@ The goal of the application is to house a RESTful service that can retrieve prod
 * BONUS: Accepts an HTTP PUT request at the same path (/products/{id}), containing a JSON request body similar to the GET response, and updates the product’s price in the data store.
 
 ### Considerations
-* Information about products comes from a 3rd party API [https://redsky.target.com/v3/pdp/tcin/13860428?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate#_blank](https://redsky.target.com/v3/pdp/tcin/13860428?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate#_blank), however, for the purposes of this exercise, we assume this is an internal API hosted by myRetail.
-* Reponses generated from the myRetail service, should contain several pieces of meta data about the product. Responses should be modeled as such `{"id":13860428,"name":"The Big Lebowski (Blu-ray) (Widescreen)","current_price":{"value": 13.49,"currency_code":"USD"}}`
+* ~~Information about products comes from a 3rd party API [https://redsky.target.com/v3/pdp/tcin/13860428?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate#_blank](https://redsky.target.com/v3/pdp/tcin/13860428?excludes=taxonomy,price,promotion,bulk_ship,rating_and_review_reviews,rating_and_review_statistics,question_answer_statistics&key=candidate#_blank), however, for the purposes of this exercise, we assume this is an internal API hosted by myRetail.~~
+* Product information comes from a 3rd party API hosted with Target, an API key is needed and will need to be fetched from a browser session. However, for the purposes of this exercise, we assume this is an internal API hosted by myRetail.
+* Reponses generated from the myRetail service, should contain several pieces of metadata about the product. Responses should be modeled as such `{"id":13860428,"name":"The Big Lebowski (Blu-ray) (Widescreen)","current_price":{"value": 13.49,"currency_code":"USD"}}`
 * A NoSQL datastore must be available to store product pricing information, that is merged with the 3rd party API data.
 
 ## Requirements
@@ -28,26 +29,21 @@ First, you need to configure your Docker Environment. You can do this by creatin
 COMPOSER_AUTH='{"github-oauth":{"github.com":"TOKEN HERE"}}'
 ```
 
-To start the application you must first start the application. You can do this by starting docker-compose from the `/docker` directory.
+To install, run the install command
 ```
-docker-compose up -d
-```
-
-Install Composer Dependencies
-```
-docker exec myretail_restful_service_app_1 composer install
+./install.sh
 ```
 
 Setup application config file. Start in the `/app` directory. You may need to adjust settings based on your setup.
-
 ```
 cp config.php.example config.php
 ```
 
 Seed the DB
 ```
-docker exec myretail_restful_service_app_1 php cli.php seed-db
+docker exec myretail_restful_service-app-1 php cli.php seed-db
 ```
+
 
 
 If you visit [http://localhost:8888](http://localhost:8888) you should see a welcome message. This means you have successfully setup your environment.
